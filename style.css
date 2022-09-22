@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#cabecalho {
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 30px;
+  background: linear-gradient(
+    90deg, rgba(157, 98, 228, 0.848) 19%, rgba(208, 70, 162, 0.7) 90%);
+  text-align: center;
+  box-shadow: 1px 7px 8px 2px rgba(51, 51, 51, 0.5);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+#foto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.lista {
+  margin: 35px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  color: rgb(51, 51, 51);
+  background: linear-gradient(
+    90deg, rgba(157, 98, 228, 0.848) 19%, rgba(208, 70, 162, 0.7) 90%);
+  border-radius: 2%;
+  box-shadow: 5px 7px 8px rgba(51, 51, 51, 0.5);
+}
+
+.alinhamento {
+  margin: 35px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 90px;
+  padding: 50px;
+  background: linear-gradient(
+    90deg, rgba(157, 98, 228, 0.848) 19%, rgba(208, 70, 162, 0.7) 90%);
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 5px 7px 8px rgba(51, 51, 51, 0.5);
+}
+
+.tabela {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  line-height: 8px;
+}
+
+.espaço-tabela {
+  padding-right: 50px;
+}
+
+#rodape {
+  padding: 2px;
+  background: linear-gradient(
+    90deg, rgba(157, 98, 228, 0.848) 19%, rgba(208, 70, 162, 0.7) 90%);
+}
